@@ -74,7 +74,7 @@ def killBG(a,threshold=65):
 
 def MTFcorrect(a):
 	# Correct MTF according to Bischof (1977)
-	# DOESNT WORK, FIX THIS! UNIT SCALING NEEDS TO BE DONE
+	# This actually does work 
 	asize = a.shape
 	xsize = asize[0]
 	zsize = asize[1]
