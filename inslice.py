@@ -1,6 +1,6 @@
-#!/usr/bin/python 
+#!/usr/bin/python
 
-# DEPENDENCIES: PYDICOM, SCIPY etc..
+# DEPENDENCIES: PYDICOM, SCIPY, MATPLOTLIB
 
 import dicom, numpy, pylab, sys
 from scipy import ndimage
